@@ -34,8 +34,14 @@ while true; do
         echo "Searching for tooltip implementations..."
         find . -type f -name "*.ts" -o -name "*.tsx" -o -name "*.js" -o -name "*.jsx" | xargs grep -l -i "tooltip\|popover\|hover" 2>/dev/null
         
-        echo "📍 Repository cloned successfully. Manual implementation needed."
-        echo "🛠️ Ready to apply activity level fix: 1+ flashcards = 'Low' activity"
+        echo "📍 Repository cloned successfully. Starting automatic implementation..."
+        echo "🛠️ Applying activity level fix: 1+ flashcards = 'Low' activity"
+        
+        # Run the implementation script
+        cd ..
+        ./implement_activity_fix.sh
+        
+        echo "🎉 Implementation completed! Check results above."
         break
     else
         echo "❌ Repository still not accessible"
