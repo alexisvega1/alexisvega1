@@ -1,4 +1,4 @@
-### ¡Hola, world! I'm a 5th year Neuroscience PhD student at UMich 🦠🧪🧠
+### ¡Hola, world! I'm a Neuroscience PhD student at UMich 🦠🧪🧠
 
 <!--
 **alexisvega1/alexisvega1** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
